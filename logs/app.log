@@ -1,0 +1,14 @@
+2021-12-30 10:42:33,741 INFO c.u.p.PrimeiroJobSeparandoResponsabilidadesApplication [main] Starting PrimeiroJobSeparandoResponsabilidadesApplication using Java 16.0.2 on BRREANDESANTOS with PID 20288 (C:\Anderson\Tecnologias\Spring\Spring Batch\projetos\PrimeiroJobSpringBatch\PrimeiroJobSpringBatch\target\classes started by andesantos in C:\Anderson\Tecnologias\Spring\Spring Batch\projetos\PrimeiroJobSpringBatch\PrimeiroJobSpringBatch)
+2021-12-30 10:42:33,744 INFO c.u.p.PrimeiroJobSeparandoResponsabilidadesApplication [main] No active profile set, falling back to default profiles: default
+2021-12-30 10:42:34,098 INFO o.s.c.a.ConfigurationClassEnhancer [main] @Bean method PropsConfig.config is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2021-12-30 10:42:34,251 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2021-12-30 10:42:34,564 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-12-30 10:42:34,673 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2021-12-30 10:42:34,804 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2021-12-30 10:42:34,885 INFO c.u.p.PrimeiroJobSeparandoResponsabilidadesApplication [main] Started PrimeiroJobSeparandoResponsabilidadesApplication in 1.453 seconds (JVM running for 2.161)
+2021-12-30 10:42:34,976 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] launched with the following parameters: [{run.id=17, nome=Anderson}]
+2021-12-30 10:42:35,012 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeOlaStep]
+2021-12-30 10:42:35,036 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeOlaStep] executed in 24ms
+2021-12-30 10:42:35,049 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] completed with the following parameters: [{run.id=17, nome=Anderson}] and the following status: [COMPLETED] in 55ms
+2021-12-30 10:42:35,052 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-12-30 10:42:35,057 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
